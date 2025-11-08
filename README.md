@@ -89,13 +89,3 @@ This repository contains small, focused modules used to process incident reports
 - The repo contains example run scripts that currently include example tokens. Remove or replace these before using in a real environment.
 - If you plan to use local large models, review `incident_severity_score.py`'s comments about `transformers`, `bitsandbytes`, and offload settings; Windows GPU support for some quantization modes may be limited.
 
-## Contributing
-
-If you add features, please:
-
-- Add small, focused tests (or example scripts) demonstrating behavior
-- Keep secrets out of commits (use `.env` or CI secrets)
-
-## License
-
-MIT-style or see repo owner for details.
