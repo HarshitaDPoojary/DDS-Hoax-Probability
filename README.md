@@ -83,9 +83,4 @@ This repository contains small, focused modules used to process incident reports
 	python incident_severity_score.py
 	```
 
-## Notes and caveats
-
-- Many modules offer optional LLM or vision features. The code is written so core heuristics work offline; enabling richer behavior requires setting API tokens and installing additional dependencies.
-- The repo contains example run scripts that currently include example tokens. Remove or replace these before using in a real environment.
-- If you plan to use local large models, review `incident_severity_score.py`'s comments about `transformers`, `bitsandbytes`, and offload settings; Windows GPU support for some quantization modes may be limited.
 
